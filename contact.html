@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>Contact - AFH</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="contact.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
@@ -14,7 +16,7 @@
         <label for="check" class="checkbtn">
           <i class="fas fa-bars"></i>
         </label>
-        <label class="logo">A.F.H</label>
+        <label class="logo" id="AF">A.F.H</label>
         <ul>
           <li><a href="C:\Users\User\AFH\home_page.html">Accueil</a></li>
           <li><a href="C:\Users\User\AFH\notre_but.html">Notre but</a></li>
@@ -23,4 +25,19 @@
          </ul>
       </nav>
     </header>
+
+    <div class="contact">
+      <div class="contact-box">
+        <div class="left"></div>
+        <div class="right">
+          <h2>Contact Us</h2>
+          <form class="contact-form" action="contactform.php" method="post">
+            <input type="text" class="field" placeholder="Votre Nom">
+            <input type="text" class="field" placeholder="Votre Email">
+            <textarea placeholder="Message" class="field"></textarea>
+            <button class="btn_contact">Envoyer</button>
+          </form>
+        </div>
+      </div>
+    </div>
   </body>
